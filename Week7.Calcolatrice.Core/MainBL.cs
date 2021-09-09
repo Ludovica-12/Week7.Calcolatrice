@@ -23,6 +23,12 @@ namespace Week7.Calcolatrice.Core
             return n1 * n2;
         }
 
+        /// <summary>
+        /// Questo metodo fa la divisione tra X e Y e se Y = 0 restituisce null
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
         public double? DividiNumeri(double n1, double n2)
         {
             return (n2 == 0) ? null : (n1 / n2);
